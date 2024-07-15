@@ -18,6 +18,7 @@ def get_stock_data():
 stock_prices = {}
 price = get_stock_data()
 symbol = "IBM"
+# symbol = 
 if price:
     stock_prices[symbol] = price
 
