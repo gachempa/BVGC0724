@@ -19,7 +19,7 @@ api_endpoint = url
 
 fetch_and_print_articles(api_endpoint)
 
-def jprint(obj):
+def jprint(obj): #this is not used .... hmmm
     print(json.dumps(obj, sort_keys=True, indent=4))
 
 
